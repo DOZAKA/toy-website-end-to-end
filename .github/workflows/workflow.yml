@@ -42,7 +42,6 @@ jobs:
     - lint
     - build
     - deploy-test
-    needs: deploy-test
     with:
       environmentType: Production
       resourceGroupName: rg-dozaka
